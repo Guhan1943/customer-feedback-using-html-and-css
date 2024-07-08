@@ -1,0 +1,43 @@
+body{
+    background-color: chocolate;
+}
+header{
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+.image{
+    float: left;
+}
+img{
+   
+    height: 200px;
+    width: 200px;
+}
+.container{
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+
+
+.container > div{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    background-color: aliceblue;
+    margin: 30px;
+    border-radius: 30px;
+    text-align:justify;
+    transition: 0.5s;
+}
+.container > div:hover{
+   box-shadow: 10px 10px 10px black;
+}
+.content{
+    padding-left: 260px;
+}
